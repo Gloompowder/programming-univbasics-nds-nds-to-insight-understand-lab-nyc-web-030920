@@ -12,6 +12,5 @@ end
 
 def print_first_directors_movie_titles
   binding.pry
-  spielberg_movies = directors_database[0][:movies]
-  spielberg_movies
+  spielberg_movies = directors_database[0][:movies][:title]
 end
