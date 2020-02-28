@@ -12,7 +12,6 @@ end
 
 def print_first_directors_movie_titles
   index = 0
-
   spielberg_movies = directors_database[0][:movies]
   while index < spielberg_movies.length do
      puts spielberg_movies[index][:title]
